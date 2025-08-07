@@ -1,0 +1,17 @@
+# 4.1 Inizializza il repository Git
+git init
+
+# 4.2 Crea un README base (se non ce l’hai già)
+echo "# progetto-latex" > README.md
+
+# 4.3 Aggiungi tutti i file (README.md, article.tex, ecc.) allo “stage”
+git add .
+
+# 4.4 Fai il commit
+git commit -m "Initial commit: aggiunti README e article.tex"
+# Rinomina il ramo principale in "main"
+git branch -M main
+
+# Aggiungi l’URL remoto (copiato dalla pagina GitHub)
+git remote add origin https://github.com/Fabio644/progetto-latex.git
+git push -u origin main
