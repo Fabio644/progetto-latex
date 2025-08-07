@@ -3,6 +3,8 @@ git init
 
 # 4.2 Crea un README base (se non ce l’hai già)
 echo "# progetto-latex" > README.md
+Progetto article.tex
+
 
 # 4.3 Aggiungi tutti i file (README.md, article.tex, ecc.) allo “stage”
 git add .
@@ -15,3 +17,32 @@ git branch -M main
 # Aggiungi l’URL remoto (copiato dalla pagina GitHub)
 git remote add origin https://github.com/Fabio644/progetto-latex.git
 git push -u origin main
+Rinomino file in article.tex
+git clone https://github.com/Fabio644/progetto-latex.git
+cd progetto-latex
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\title{Riepilogo dei Dati}
+\author{ChatGPT}
+\date{\today}
+\begin{document}
+\maketitle
+
+\section{Introduzione}
+Questo articolo riassume i dati e i materiali elaborati durante la nostra sessione.
+
+\section{Contenuto del repository}
+Il repository contiene il seguente file:
+\begin{itemize}
+  \item README.md
+\end{itemize}
+
+\section{Contenuto del README}
+Il README contiene il testo seguente:
+\begin{verbatim}
+# Welcome to GitHub Desktop!
+This is your README. READMEs are where you can communicate what your project is and how to use it.
+Write your name on line 6, save it, and then head back to GitHub Desktop.
+\end{verbatim}
+
+\end{document}
